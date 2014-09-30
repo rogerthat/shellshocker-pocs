@@ -14,6 +14,8 @@ Please submit a pull request if you have more links or other resources
 + MySQL
 + NFS
 + Bind9
++ Procmail [see](https://www.dfranke.us/posts/2014-09-27-shell-shock-exploitation-vectors.html)
++ Exim [see](https://www.dfranke.us/posts/2014-09-27-shell-shock-exploitation-vectors.html)
 + Juniper Google Search`inurl:inurl:/dana-na/auth/url_default/welcome.cgi`
   + via: https://twitter.com/notsosecure/status/516132301025984512
   + via: http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10648&actp=RSS
@@ -23,6 +25,9 @@ Please submit a pull request if you have more links or other resources
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
 ## Command Line (Linux, OSX, and Windows via Cygwin)
+
++ [bashcheck](https://github.com/hannob/bashcheck) - script to test for the latest vulns 
+ 
 
 ### CVE-2014-6271
 +`env X='() { :; }; echo "CVE-2014-6271 vulnerable"' bash -c id`
@@ -96,6 +101,14 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 
 ## FTP
 + Pure-FTPd: https://gist.github.com/jedisct1/88c62ee34e6fa92c31dc
+
+## Phusion Passenger
++ https://news.ycombinator.com/item?id=8369776 
+
+## Oracle
++ [Alert and list of affected Products](http://www.oracle.com/technetwork/topics/security/alert-cve-2014-7169-2303276.html)
+
+
 
 
 ## TMNT
